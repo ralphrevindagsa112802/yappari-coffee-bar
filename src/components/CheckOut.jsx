@@ -20,7 +20,7 @@ const CheckOut = () => {
     setTotalAmount(storedTotal);
 
     // Fetch user details from API
-    axios.get("http://localhost/capstone-react/api/getUserOrderDetails.php", { withCredentials: true })
+    axios.get("http://localhost/yappari-coffee-bar/api/getUserOrderDetails.php", { withCredentials: true })
       .then(response => {
         if (response.data.success) {
           setUser({ name: response.data.name, address: response.data.address });
@@ -52,7 +52,7 @@ const CheckOut = () => {
 
     try {
         const response = await axios.post(
-            "http://localhost/capstone-react/api/submitOrders.php", // ✅ Use correct API
+            "http://localhost/yappari-coffee-bar/api/submitOrders.php", // ✅ Use correct API
             requestData,
             { headers: { "Content-Type": "application/json" }, withCredentials: true }
         );

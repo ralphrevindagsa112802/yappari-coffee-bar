@@ -53,7 +53,7 @@ const UserAccount = () => {
 
   
   useEffect(() => {
-    fetch('http://localhost/capstone-react/api/fetch_user.php', {
+    fetch('http://localhost/yappari-coffee-bar/api/fetch_user.php', {
       credentials: 'include',
     })
       .then(response => response.json())
@@ -89,7 +89,7 @@ const UserAccount = () => {
       return;
     }
 
-    fetch("http://localhost/capstone-react/api/update_user.php", {
+    fetch("http://localhost/yappari-coffee-bar/api/update_user.php", {
       method: "POST",
       credentials: "include",
       headers: { "Content-Type": "application/json" },
@@ -125,7 +125,7 @@ const UserAccount = () => {
     const formData = new FormData();
     formData.append("profile_pic", selectedFile);
 
-    fetch("http://localhost/capstone-react/api/upload_profile.php", {
+    fetch("http://localhost/yappari-coffee-bar/api/upload_profile.php", {
       method: "POST",
       credentials: "include",
       body: formData,
@@ -159,7 +159,7 @@ const UserAccount = () => {
     }
 
     try{
-      fetch('http://localhost/capstone-react/api/change_password.php', {
+      fetch('http://localhost/yappari-coffee-bar/api/change_password.php', {
         method: 'POST',
         credentials: 'include',
         headers: { 'Content-Type': 'application/json' },

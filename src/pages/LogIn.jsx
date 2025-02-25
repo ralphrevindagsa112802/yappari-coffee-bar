@@ -19,7 +19,7 @@ const Login = () => {
     console.log("Form Data Before Sending:", JSON.stringify(formData)); // ✅ Debug form data
   
     try {
-      const response = await fetch("http://localhost/capstone-react/api/login.php", {
+      const response = await fetch("http://localhost/yappari-coffee-bar/api/login.php", {
         method: "POST",
         credentials: "include",  // ✅ Ensures cookies are sent
         headers: {

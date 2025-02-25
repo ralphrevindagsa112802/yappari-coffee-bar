@@ -33,7 +33,7 @@ const AdminMenu = () => {
   //get menu
   useEffect(() => {
     axios
-      .get("http://localhost/capstone-react/api/getMenuItems.php") // Update to your actual API path
+      .get("http://localhost/yappari-coffee-bar/api/getMenuItems.php") // Update to your actual API path
       .then((response) => {
         setMenuItems(response.data);
       })

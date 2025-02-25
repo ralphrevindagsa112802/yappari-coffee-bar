@@ -11,7 +11,7 @@ const UserMenu = () => {
     const [selectedFood, setSelectedFood] = useState(null); // Track selected food item
 
     useEffect(() => {
-        axios.get('http://localhost/capstone-react/api/getFoodItems.php')
+        axios.get('http://localhost/yappari-coffee-bar/api/getFoodItems.php')
             .then(response => {
                 if (response.data.success) {
                     setFoodItems(response.data.data);

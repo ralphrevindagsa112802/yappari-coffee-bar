@@ -32,7 +32,7 @@ const UserNavbar = () => {
     useEffect(() => {
       const fetchUserData = async () => {
         try {
-          const response = await fetch("http://localhost/capstone-react/api/getUser.php", {
+          const response = await fetch("http://localhost/yappari-coffee-bar/api/getUser.php", {
             method: "GET",
             credentials: "include", // Ensures session cookies are sent
           });
