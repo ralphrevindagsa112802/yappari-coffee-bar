@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import './index.css'
 import { CartProvider } from "./context/CartContext";
 
-import App from './App'
+
 import Home from './pages/Home';
 import Menu from './pages/Menu'
 import NotFound from './pages/NotFound'
