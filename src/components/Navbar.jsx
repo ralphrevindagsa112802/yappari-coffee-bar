@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:block">
-                <Link to="/signin" className="bg-[#1C359A] text-white px-6 py-2.5 rounded-md text-xs font-medium">
+                <Link to="/yappari-coffee-bar/signin" className="bg-[#1C359A] text-white px-6 py-2.5 rounded-md text-xs font-medium">
                     Sign In
                 </Link>
             </div>
