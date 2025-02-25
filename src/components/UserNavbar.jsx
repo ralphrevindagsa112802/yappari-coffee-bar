@@ -117,7 +117,7 @@ const UserNavbar = () => {
                                     <div id="profilePicture" className="w-10 h-10 bg-gray-300 rounded-full"></div>
                                     <div className="ml-3">
                                         {/* ✅ Display user name dynamically */}
-                                            <Link to="/user/account" className="text-sm font-medium text-gray-800">
+                                            <Link to="/yappari-coffee-bar/user/account" className="text-sm font-medium text-gray-800">
                                                 {user ? `${user.f_name} ${user.l_name}` : "Guest"}
                                             </Link>
                                     </div>

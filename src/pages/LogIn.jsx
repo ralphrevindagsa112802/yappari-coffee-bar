@@ -60,7 +60,7 @@ const Login = () => {
 
       <div className="w-2/3 md:w-2/3 bg-white rounded-lg p-8 shadow-lg h-screen ">
         <div className="flex justify-between items-center px-4 py-2 text-gray-600 text-sm mb-6">
-          <Link to="/" className="flex items-center hover:text-gray-800">
+          <Link to="/yappari-coffee-bar/" className="flex items-center hover:text-gray-800">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
@@ -68,7 +68,7 @@ const Login = () => {
           </Link>
           <div>
             <span>Don't have an account? </span>
-            <Link to="/signIn" className='text-[#1C359A] font-bold hover:underline'>SIGN-UP</Link>
+            <Link to="/yappari-coffee-bar/signIn" className='text-[#1C359A] font-bold hover:underline'>SIGN-UP</Link>
           </div>
         </div>
         <div className="text-center">

@@ -74,7 +74,7 @@ const SignIn = () => {
 
         <div className="w-2/3 md:w-2/3 bg-white rounded-lg p-8 shadow-lg h-full">
           <div className="flex justify-between items-center px-4 py-2 text-gray-600 text-sm mb-6">
-            <Link to="/" className="flex items-center hover:text-gray-800">
+            <Link to="/yappari-coffee-bar/" className="flex items-center hover:text-gray-800">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5 mr-1"
@@ -95,7 +95,7 @@ const SignIn = () => {
             <div>
               <span>Already have an account? </span>
               <Link
-                to="/login"
+                to="/yappari-coffee-bar/login"
                 className="text-[#1C359A] font-bold hover:underline"
               >
                 LOGIN

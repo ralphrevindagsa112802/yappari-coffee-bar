@@ -233,25 +233,25 @@ const AdminMenu = () => {
         <div className="w-64 flex-none bg-white shadow-md h-full flex flex-col p-4">
           <nav className="flex flex-col space-y-4">
             <Link
-              to="/admin/dashboard"
+              to="/yappari-coffee-bar/admin/dashboard"
               className="font-bold border-l-2 border-black hover:border-[#1C359A] sidebar-link flex items-center justify-center space-x-2 p-3 hover:bg-gray-200 text-gray-800"
             >
               <span>Orders</span>
             </Link>
             <Link
-              to="/admin/menu"
+              to="/yappari-coffee-bar/admin/menu"
               className="font-bold border-l-2 border-black hover:border-[#1C359A] sidebar-link flex items-center justify-center space-x-2 p-3 hover:bg-gray-200 text-gray-800"
             >
               <span>Menu</span>
             </Link>
             <Link
-              to="/admin/feedback"
+              to="/yappari-coffee-bar/admin/feedback"
               className="font-bold border-l-2 border-black hover:border-[#1C359A] sidebar-link flex items-center justify-center space-x-2 p-3 hover:bg-gray-200 text-gray-800"
             >
               <span>Feedback</span>
             </Link>
             <Link
-              to="/admin/order-history"
+              to="/yappari-coffee-bar/admin/order-history"
               className="font-bold border-l-2 border-black hover:border-[#1C359A] sidebar-link flex items-center justify-center space-x-2 p-3 hover:bg-gray-200 text-gray-800"
             >
               <span>Order History</span>

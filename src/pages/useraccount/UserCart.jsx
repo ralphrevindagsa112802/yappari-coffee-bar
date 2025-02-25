@@ -56,16 +56,16 @@ const UserCart = () => {
             <div className="container mx-auto pt-6 px-4 md:px-36 flex flex-col md:flex-row w-full">
                 <aside className="w-full mt-12 md:w-64 h-auto md:h-screen py-4 flex flex-col space-y-6">
                 <nav className="space-y-4">
-                        <Link to="/user/account" className="flex items-center space-x-4 text-gray-800 hover:text-blue-600">
+                        <Link to="/yappari-coffee-bar/user/account" className="flex items-center space-x-4 text-gray-800 hover:text-blue-600">
                             <span className="font-semibold">User Profile</span>
                         </Link>
-                        <Link to="/user/cart" className="flex items-center space-x-4 text-gray-800 hover:text-blue-600">
+                        <Link to="/yappari-coffee-bar/user/cart" className="flex items-center space-x-4 text-gray-800 hover:text-blue-600">
                             <span className="font-semibold">Cart</span>
                         </Link>
-                        <Link to="/user/orderstatus" className="flex items-center space-x-4 text-gray-800 hover:text-blue-600">
+                        <Link to="/yappari-coffee-bar/user/orderstatus" className="flex items-center space-x-4 text-gray-800 hover:text-blue-600">
                             <span className="font-semibold">Order Status</span>
                         </Link>
-                        <Link to="/user/orderhistory" className="flex items-center space-x-4 text-gray-800 hover:text-blue-600">
+                        <Link to="/yappari-coffee-bar/user/orderhistory" className="flex items-center space-x-4 text-gray-800 hover:text-blue-600">
                             <span className="font-semibold">Order History</span>
                         </Link>
                     </nav>
