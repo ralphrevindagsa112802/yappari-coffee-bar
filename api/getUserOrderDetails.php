@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-header("Access-Control-Allow-Origin: https://ralphrevindagsa112802.github.io/");
+header("Access-Control-Allow-Origin: https://ralphrevindagsa112802.github.io/yappari-coffee-bar/");
 header("Access-Control-Allow-Methods: GET");
 header("Access-Control-Allow-Credentials: true");
 header("Content-Type: application/json");

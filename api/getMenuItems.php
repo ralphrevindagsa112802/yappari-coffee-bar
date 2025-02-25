@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: application/json");
-header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Origin: https://ralphrevindagsa112802.github.io/yappari-coffee-bar/");
 header("Access-Control-Allow-Methods: GET");
 
 // Database connection

@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-header("Access-Control-Allow-Origin: https://ralphrevindagsa112802.github.io/"); // ✅ Allow Vite frontend
+header("Access-Control-Allow-Origin: https://ralphrevindagsa112802.github.io/yappari-coffee-bar/"); // ✅ Allow Vite frontend
 header("Access-Control-Allow-Credentials: true");
 header("Access-Control-Allow-Methods: POST, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");

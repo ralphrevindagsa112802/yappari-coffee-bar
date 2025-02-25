@@ -1,7 +1,7 @@
 <?php
 include 'db.php'; // Ensure this connects to your database
 
-header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Origin: https://ralphrevindagsa112802.github.io/yappari-coffee-bar/");
 header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type");
 
