@@ -79,7 +79,7 @@ const router = createBrowserRouter([{
   errorElement: <NotFound/>,
 }, {
   path: '/user/logout',
-  element: <App />,
+  element: <Home />,
   errorElement: <NotFound/>,
 }, {
   path: '/user/checkout',
