@@ -24,7 +24,7 @@ const AdminLogin = () => {
   
       if (data.success) {
         localStorage.setItem('isAdminAuthenticated', 'true'); // Store login state
-        navigate('/admin/dashboard'); // Redirect to Admin Home
+        navigate('/yappari-coffee-bar/admin/dashboard'); // Redirect to Admin Home
       } else {
         setError(data.message);
       }

@@ -25,7 +25,7 @@ const UserCart = () => {
         localStorage.setItem("checkoutOrder", JSON.stringify(cartItems));
         localStorage.setItem("totalAmount", totalAmount);
 
-        navigate("/user/checkout"); // 🔹 Redirect to Checkout page
+        navigate("/yappari-coffee-bar/user/checkout"); // 🔹 Redirect to Checkout page
     };
     
     

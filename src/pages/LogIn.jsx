@@ -34,7 +34,7 @@ const Login = () => {
   
       if (data.success) {
         alert(`Welcome back, ${data.user.f_name} ${data.user.l_name}!`);
-        navigate("/user/home");
+        navigate("/yappari-coffee-bar/user/home");
       } else {
         setError(data.error || "Login failed");
       }

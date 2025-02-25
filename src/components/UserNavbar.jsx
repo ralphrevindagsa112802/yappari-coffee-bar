@@ -57,7 +57,7 @@ const UserNavbar = () => {
         localStorage.removeItem("loggedInUser"); // Remove user session
         localStorage.removeItem(`cartItems_${user_id}`); // Remove cart for that user
         setCartItems([]); // Clear cart state
-        navigate("/");
+        navigate("/yappari-coffee-bar/");
       };
       
     
@@ -79,11 +79,11 @@ const UserNavbar = () => {
 
             
             <div className="hidden md:flex space-x-16">
-                <Link to="/user/home" className="uppercase text-black font-bold tracking-wide text-xs">Home</Link>
-                <Link to="/user/menu" className="uppercase text-black font-bold tracking-wide text-xs">Menu</Link>
-                <Link to="/user/company" className="uppercase text-black font-bold tracking-wide text-xs">Company</Link>
-                <Link to="/user/special" className="uppercase text-black font-bold tracking-wide text-xs">Special</Link>
-                <Link to="/user/contact" className="uppercase text-black font-bold tracking-wide text-xs">Contact</Link>
+                <Link to="/yappari-coffee-bar/user/home" className="uppercase text-black font-bold tracking-wide text-xs">Home</Link>
+                <Link to="/yappari-coffee-bar/user/menu" className="uppercase text-black font-bold tracking-wide text-xs">Menu</Link>
+                <Link to="/yappari-coffee-bar/user/company" className="uppercase text-black font-bold tracking-wide text-xs">Company</Link>
+                <Link to="/yappari-coffee-bar/user/special" className="uppercase text-black font-bold tracking-wide text-xs">Special</Link>
+                <Link to="/yappari-coffee-bar/user/contact" className="uppercase text-black font-bold tracking-wide text-xs">Contact</Link>
             </div>
 
        

@@ -64,7 +64,7 @@ const CheckOut = () => {
             setCartItems([]); // ✅ Clear cart after order
             localStorage.removeItem("checkoutOrder");
             localStorage.removeItem("totalAmount");
-            navigate("/user/cart"); // ✅ Redirect to confirmation page
+            navigate("/yappari-coffee-bar/user/cart"); // ✅ Redirect to confirmation page
         } else {
             alert("Order submission failed: " + response.data.message);
         }

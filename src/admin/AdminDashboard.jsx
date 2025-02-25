@@ -29,13 +29,13 @@ const AdminDashboard = () => {
     useEffect(() => {
         const isAuthenticated = localStorage.getItem('isAdminAuthenticated');
         if (!isAuthenticated) {
-            navigate('/admin/login');
+            navigate('/yappari-coffee-bar/admin/login');
         }
     }, [navigate]);
 
     const handleLogout = () => {
         localStorage.removeItem('isAdminAuthenticated');
-        navigate('/admin/login');
+        navigate('/yappari-coffee-bar/admin/login');
     };
 
     const toggleDropdown = (orderId) => {

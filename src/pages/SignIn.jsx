@@ -40,7 +40,7 @@ const SignIn = () => {
       console.log(data); // Log the response for debugging
       if (data.success) {
         alert("Signup successful! You can now log in.");
-        navigate("/login");
+        navigate("/yappari-coffee-bar/login");
       } else {
         setError(data.message || "Signup failed");
       }

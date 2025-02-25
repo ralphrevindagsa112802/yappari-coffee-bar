@@ -20,11 +20,11 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex space-x-16">
-                <Link to="/" className="uppercase text-black font-bold tracking-wide text-xs">Home</Link>
-                <Link to="/menu" className="uppercase text-black font-bold tracking-wide text-xs">Menu</Link>
-                <Link to="/company" className="uppercase text-black font-bold tracking-wide text-xs">Company</Link>
-                <Link to="/special" className="uppercase text-black font-bold tracking-wide text-xs">Special</Link>
-                <Link to="/contact" className="uppercase text-black font-bold tracking-wide text-xs">Contact</Link>
+                <Link to="/yappari-coffee-bar/" className="uppercase text-black font-bold tracking-wide text-xs">Home</Link>
+                <Link to="/yappari-coffee-bar/menu" className="uppercase text-black font-bold tracking-wide text-xs">Menu</Link>
+                <Link to="/yappari-coffee-bar/company" className="uppercase text-black font-bold tracking-wide text-xs">Company</Link>
+                <Link to="/yappari-coffee-bar/special" className="uppercase text-black font-bold tracking-wide text-xs">Special</Link>
+                <Link to="/yappari-coffee-bar/contact" className="uppercase text-black font-bold tracking-wide text-xs">Contact</Link>
             </div>
 
             <div className="hidden md:block">
