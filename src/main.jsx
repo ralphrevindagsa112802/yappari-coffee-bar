@@ -30,71 +30,71 @@ const RequireAuth = ({ children }) => {
 };
 
 const router = createBrowserRouter([{
-  path: '/',
+  path: '/yappari-coffee-bar/',
   element: <Home />,
   errorElement: <NotFound/>,
 }, {
-  path: '/menu',
+  path: '/yappari-coffee-bar/menu',
   element: <Menu />,
   errorElement: <NotFound/>,
 }, {
-  path: '/company',
+  path: '/yappari-coffee-bar/company',
   element: <Company />,
   errorElement: <NotFound/>,
 }, {
-  path: '/special',
+  path: '/yappari-coffee-bar/special',
   element: <Special />,
   errorElement: <NotFound/>,
 },{
-  path: '/signin',
+  path: '/yappari-coffee-bar/signin',
   element: <SignIn />,
   errorElement: <NotFound/>,
 }, {
-  path: '/login',
+  path: '/yappari-coffee-bar/login',
   element: <LogIn />,
   errorElement: <NotFound/>,
 }, {
-  path: '/user/home',
+  path: '/yappari-coffee-bar/user/home',
   element: <UserHome />,
   errorElement: <NotFound/>,
 }, {
-  path: '/user/menu',
+  path: '/yappari-coffee-bar/user/menu',
   element: <UserMenu />,
   errorElement: <NotFound/>,
 },  {
-  path: '/user/company',
+  path: '/yappari-coffee-bar/user/company',
   element: <UserCompany />,
   errorElement: <NotFound/>,
 }, {
-  path: '/user/special',
+  path: '/yappari-coffee-bar/user/special',
   element: <UserSpecial />,
   errorElement: <NotFound/>,
 }, {
-  path: '/user/account',
+  path: '/yappari-coffee-bar/user/account',
   element: <UserAccount />,
   errorElement: <NotFound/>,
 }, {
-  path: '/user/cart',
+  path: '/yappari-coffee-bar/user/cart',
   element: <UserCart />,
   errorElement: <NotFound/>,
 }, {
-  path: '/user/logout',
+  path: '/yappari-coffee-bar/user/logout',
   element: <Home />,
   errorElement: <NotFound/>,
 }, {
-  path: '/user/checkout',
+  path: '/yappari-coffee-bar/user/checkout',
   element: <CheckOut />,
   errorElement: <NotFound/>,
 }, {
-  path: '/admin/login',
+  path: '/yappari-coffee-bar/admin/login',
   element: <AdminLogin />,
   errorElement: <NotFound/>,
 }, { 
-  path: '/admin/dashboard', 
+  path: '/yappari-coffee-bar/admin/dashboard', 
   element: <RequireAuth><AdminDashboard /></RequireAuth>, 
   errorElement: <NotFound/> 
 },{ 
-  path: '/admin/menu', 
+  path: '/yappari-coffee-bar/admin/menu', 
   element: <RequireAuth><AdminMenu /></RequireAuth>, 
   errorElement: <NotFound/> 
 },]);
